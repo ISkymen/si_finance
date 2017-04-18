@@ -29,13 +29,10 @@ class siDbService {
  }
 
  public function getProjectProfit($date) {
-   var_dump($date);
 
    if ($date == 'current') {
       $date = date('Y-m', strtotime('last month'));
     }
-   var_dump($date);
-
 
    $date_start = new DrupalDateTime('first day of ' . $date);
    $date_end = new DrupalDateTime('last day of ' . $date);
