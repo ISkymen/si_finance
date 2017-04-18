@@ -1,0 +1,25 @@
+entity.si_party.add_form:
+  route_name: entity.si_party.add_form
+  title: 'Add Si_party'
+  appears_on:
+    - entity.si_party.collection
+entity.si_transaction.add_form:
+  route_name: entity.si_transaction.add_form
+  title: 'Add Si_transaction'
+  appears_on:
+    - entity.si_transaction.collection
+entity.si_project.add_form:
+  route_name: entity.si_project.add_form
+  title: 'Add Si_project'
+  appears_on:
+    - entity.si_project.collection
+entity.si_stake.add_form:
+  route_name: entity.si_stake.add_form
+  title: 'Add Si_stake'
+  appears_on:
+    - entity.si_stake.collection
+entity.si_category.add_form:
+  route_name: entity.si_category.add_form
+  title: 'Add Si_category'
+  appears_on:
+    - entity.si_category.collection

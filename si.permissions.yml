@@ -1,0 +1,95 @@
+add si_party entities:
+  title: 'Create new Si_party entities'
+
+administer si_party entities:
+  title: 'Administer Si_party entities'
+  description: 'Allow to access the administration form to configure Si_party entities.'
+  restrict access: true
+
+delete si_party entities:
+  title: 'Delete Si_party entities'
+
+edit si_party entities:
+  title: 'Edit Si_party entities'
+
+view published si_party entities:
+  title: 'View published Si_party entities'
+
+view unpublished si_party entities:
+  title: 'View unpublished Si_party entities'
+add si_transaction entities:
+  title: 'Create new Si_transaction entities'
+
+administer si_transaction entities:
+  title: 'Administer Si_transaction entities'
+  description: 'Allow to access the administration form to configure Si_transaction entities.'
+  restrict access: true
+
+delete si_transaction entities:
+  title: 'Delete Si_transaction entities'
+
+edit si_transaction entities:
+  title: 'Edit Si_transaction entities'
+
+view published si_transaction entities:
+  title: 'View published Si_transaction entities'
+
+view unpublished si_transaction entities:
+  title: 'View unpublished Si_transaction entities'
+add si_project entities:
+  title: 'Create new Si_project entities'
+
+administer si_project entities:
+  title: 'Administer Si_project entities'
+  description: 'Allow to access the administration form to configure Si_project entities.'
+  restrict access: true
+
+delete si_project entities:
+  title: 'Delete Si_project entities'
+
+edit si_project entities:
+  title: 'Edit Si_project entities'
+
+view published si_project entities:
+  title: 'View published Si_project entities'
+
+view unpublished si_project entities:
+  title: 'View unpublished Si_project entities'
+add si_stake entities:
+  title: 'Create new Si_stake entities'
+
+administer si_stake entities:
+  title: 'Administer Si_stake entities'
+  description: 'Allow to access the administration form to configure Si_stake entities.'
+  restrict access: true
+
+delete si_stake entities:
+  title: 'Delete Si_stake entities'
+
+edit si_stake entities:
+  title: 'Edit Si_stake entities'
+
+view published si_stake entities:
+  title: 'View published Si_stake entities'
+
+view unpublished si_stake entities:
+  title: 'View unpublished Si_stake entities'
+add si_category entities:
+  title: 'Create new Si_category entities'
+
+administer si_category entities:
+  title: 'Administer Si_category entities'
+  description: 'Allow to access the administration form to configure Si_category entities.'
+  restrict access: true
+
+delete si_category entities:
+  title: 'Delete Si_category entities'
+
+edit si_category entities:
+  title: 'Edit Si_category entities'
+
+view published si_category entities:
+  title: 'View published Si_category entities'
+
+view unpublished si_category entities:
+  title: 'View unpublished Si_category entities'

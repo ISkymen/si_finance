@@ -1,0 +1,15 @@
+si:
+  path: 'admin/structure/si'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'SI entities'
+  requirements:
+    _permission: 'administer content types'
+
+si.stat:
+  path: 'admin/structure/si/profit/{date}'
+  defaults:
+    _controller: '\Drupal\si\Controller\SiStat::statPage'
+    date: '2017-01'
+  requirements:
+    _permission: 'view published si_transaction entities'

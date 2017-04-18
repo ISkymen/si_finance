@@ -1,0 +1,6 @@
+services:
+  si.sidb:
+    class: Drupal\si\siDbService
+    arguments: ['@database']
+    tags:
+      - { name: backend_overridable }

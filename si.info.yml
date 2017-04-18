@@ -1,0 +1,5 @@
+name: SI
+type: module
+description: SmartIdea module
+core: 8.x
+package: Custom

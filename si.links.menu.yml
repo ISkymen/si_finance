@@ -1,0 +1,46 @@
+si:
+  title: 'SI finance'
+  description: 'Menu for SI entities'
+  parent: system.admin_structure
+  route_name: si
+
+si.stat:
+  title: 'Stat page'
+  description: 'Stat page'
+  parent: si
+  route_name: si.stat
+
+entity.si_party.collection:
+  title: 'Party'
+  route_name: entity.si_party.collection
+  description: 'Party entities'
+  parent: si
+  weight: 10
+
+entity.si_project.collection:
+  title: 'Project'
+  route_name: entity.si_project.collection
+  description: 'Project entities'
+  parent: si
+  weight: 20
+
+entity.si_stake.collection:
+  title: 'Stake'
+  route_name: entity.si_stake.collection
+  description: 'Stake entities'
+  parent: si
+  weight: 30
+
+entity.si_category.collection:
+  title: 'Category'
+  route_name: entity.si_category.collection
+  description: 'Category entities'
+  parent: si
+  weight: 40
+
+entity.si_transaction.collection:
+  title: 'Transaction'
+  route_name: entity.si_transaction.collection
+  description: 'Transaction entities'
+  parent: si
+  weight: 50
