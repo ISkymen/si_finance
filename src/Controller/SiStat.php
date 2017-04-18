@@ -23,6 +23,10 @@ class SiStat extends ControllerBase {
 
     $service = \Drupal::service('si.sidb');
 
+    if ($date == 'current') {
+      $date = date('Y-m', strtotime('last month'));
+    }
+
     $data = $service->getProjectProfit($date);
     $project_profit = $service->idToName('si_project', $data['by_project']);
     $owner_profit = $service->idToName('si_party', $data['by_owner']);
@@ -42,6 +46,7 @@ class SiStat extends ControllerBase {
     $output[] = $owner_profit_table;
     $output[] = array('#markup' => '<h2>К выплате с учетом полученных и потраченных средств</h2>');
     $output[] = $owner_diff_table;
+    $output[] = array('#markup' => '<h4><a href="/transactions?date=' . $date . '">Детали</a></h4>');
     $output[] = array('#markup' => '<h6>Проверка: ' . $data['check'] . '</h6>');
     $output[] = array('#markup' => '<h6>Выполнено за ' . $execution_time . '</h6>');
 

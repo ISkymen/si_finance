@@ -30,10 +30,6 @@ class siDbService {
 
  public function getProjectProfit($date) {
 
-   if ($date == 'current') {
-      $date = date('Y-m', strtotime('last month'));
-    }
-
    $date_start = new DrupalDateTime('first day of ' . $date);
    $date_end = new DrupalDateTime('last day of ' . $date);
 // $date->setTimezone(new \DateTimezone(DATETIME_STORAGE_TIMEZONE));
