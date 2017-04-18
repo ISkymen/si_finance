@@ -10,6 +10,6 @@ si.stat:
   path: 'admin/structure/si/profit/{date}'
   defaults:
     _controller: '\Drupal\si\Controller\SiStat::statPage'
-    date: '2017-01'
+    date: 'current'
   requirements:
     _permission: 'view published si_transaction entities'
